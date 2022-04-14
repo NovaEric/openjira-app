@@ -1,0 +1,1 @@
+self.__MIDDLEWARE_MANIFEST=[["\u002Fapi\u002Fentries\u002F[id]",false]];self.__MIDDLEWARE_MANIFEST_CB&&self.__MIDDLEWARE_MANIFEST_CB()
