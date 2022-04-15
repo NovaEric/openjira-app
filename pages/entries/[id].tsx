@@ -138,7 +138,12 @@ export const EntryPage: FC<Props> = ({ entry }) => {
 // You should use getServerSideProps when:
 // - Only if you need to pre-render a page whose data must be fetched at request time
 
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ params, res }) => {
+
+    res.setHeader(
+        'Cache-Control',
+        'public, s-maxage=0, stale-while-revalidate=59',
+      )
 
     const { id } = params as { id: string };
 
