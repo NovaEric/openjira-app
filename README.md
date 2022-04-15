@@ -14,3 +14,5 @@ needs db to run locally
 ## Call the database with development info with
 
 ``` http://localhost:3000/api/seed ```
+
+## take a look here https://openjira-app.herokuapp.com/
