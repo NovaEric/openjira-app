@@ -15,4 +15,4 @@ needs db to run locally
 
 ``` http://localhost:3000/api/seed ```
 
-## take a look here https://openjira-app.herokuapp.com/
+## take a look here https://openjira-app-zeta.vercel.app/
